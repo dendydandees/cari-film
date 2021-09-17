@@ -17,7 +17,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Jangan khawatir dengan Cari Film, kamu bisa mencari tahu mengenai film yang kamu ragukan.',
+          'Jangan khawatir! dengan Cari Film, kamu bisa mencari tahu mengenai film yang kamu ragukan.',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],

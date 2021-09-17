@@ -5,7 +5,7 @@
         <div class="max-w-none md:max-w-lg">
           <h1 class="tracking-wide">Film itu bagus enggak ya ? 🤔</h1>
           <p class="lead">
-            Jangan khawatir dengan <strong>Cari Film</strong>, kamu bisa mencari
+            Jangan khawatir! dengan <strong>Cari Film</strong>, kamu bisa mencari
             tahu mengenai film yang kamu ragukan.
           </p>
 
