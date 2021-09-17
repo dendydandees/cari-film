@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply transition-all duration-300;
+  }
+  body {
+    @apply bg-gray-200;
+  }
+}
+
+@layer components {
+  .input-primary {
+    @apply rounded-md shadow-sm focus:border-yellow-300 focus:ring focus:ring-yellow-200 focus:ring-opacity-50;
+  }
+  .btn-primary {
+    @apply bg-yellow-300 font-bold rounded-md shadow-sm border-gray-300 active:border-yellow-300 active:bg-yellow-500 active:ring active:ring-yellow-200 active:ring-opacity-50 hover:cursor-pointer hover:bg-yellow-400;
+  }
+}

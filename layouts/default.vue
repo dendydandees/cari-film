@@ -1,17 +1,20 @@
 <template>
-  <main class="bg-gray-200 container mx-auto">
+  <main>
     <Header />
-    <Nuxt />
+    <Nuxt/>
     <Footer />
   </main>
 </template>
 
 <script>
 export default {
-
+  mounted() {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
+  },
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
